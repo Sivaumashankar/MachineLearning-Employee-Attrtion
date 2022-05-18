@@ -1,0 +1,75 @@
+thank u *******
+now move on to the data cleaning
+
+data cleaning---- 
+
+as we know that dc also known as scrubbing. This task involves filling of missing values, smoothing or removing noisy data and outliers 
+Data preprocessing is an important task. It is a data mining technique that transforms raw data into a more understandable, useful and efficient format.
+
+Data has a better idea. This idea will be clearer and understandable after performing data preprocessing.
+Remove Unwanted Data
+
+
+ Mean or median of the attribute is used to fill the missing value.
+
+The data cleaning process detects and removes the errors and inconsistencies present in the data and improves its quality. Data quality problems occur due to misspellings during data entry, missing values or any other invalid data. Basically, “dirty” data is transformed into clean data. “Dirty” data does not produce the accurate and good results. So it becomes very important to handle this data. Professionals spend a lot of their time on this step.
+	
+Reasons for “dirty” or “unclean” data
+Dummy values
+Absence of data
+Violation of business rules
+
+Non-unique identifiers
+
+
+----------data preprocessing
+Data preprocessing in Machine Learning is a crucial step that helps enhance the quality of data to promote the extraction of meaningful insights from the data. Data preprocessing in Machine Learning refers to the technique of preparing (cleaning and organizing) the raw data to make it suitable for a building and training Machine Learning models. In simple words, data preprocessing in Machine Learning is a data mining technique that transforms raw data into an understandable and readable format. 
+
+
+When it comes to creating a Machine Learning model, data preprocessing is the first step marking the initiation of the process. Typically, real-world data is incomplete, inconsistent, inaccurate (contains errors or outliers), and often lacks specific attribute values/trends. This is where data preprocessing enters the scenario – it helps to clean, format, and organize the raw data, thereby making it ready-to-go for Machine Learning models. Let’s explore various steps of data preprocessing in machine learning. 
+
+
+
+
+Steps in Data Preprocessing in Machine Learning
+ 1. Acquire the dataset
+2. Import all the crucial libraries
+3. Import the dataset
+4. Identifying and handling the missing values
+5. Encoding the categorical data
+6. Splitting the dataset
+7. Feature scaling
+
+
+
+
+Accuracy represents the number of correctly classified data instances over the total number of data instances.
+accuracy = tn+tp/tn+fp+tp+fn
+
+
+
+Machine learning model accuracy is the measurement used to determine which model is best at identifying relationships and patterns between variables in a dataset based on the input, or training, data. machine learning models to make practical business decisions, and more accurate model outcomes result in better decisions.
+
+
+Precision is one indicator of a machine learning model’s performance – the quality of a positive prediction made by the model. Precision refers to the number of true positives divided by the total number of positive predictions (i.e., the number of true positives plus the number of false positives)
+precision =tp/tp+fp
+
+
+the recall is calculated as the ratio between the numbers of Positive samples correctly classified as Positive to the total number of Positive samples. The recall measures the model's ability to detect positive samples. The higher the recall, the more positive samples detected.
+recall = tp/tp+fn
+
+
+
+
+Once precision and recall have been calculated for a binary or multiclass classification problem, the two scores can be combined into the calculation of the F-Measure.
+This is the harmonic mean of the two fractions. This is sometimes called the F-Score or the F1-Score and might be the most common metric used on imbalanced classification problems.
+
+… the F1-measure, which weights precision and recall equally, is the variant most often used when learning from imbalanced data.
+f1 score=2* precision*recall/ precision +recall
+
+
+n simple terms, Cross-Validation is a technique used to assess how well our Machine learning models perform on unseen data”
+
+
+Cross-Validation is a resampling technique with the fundamental idea of splitting the dataset into 2 parts- training data and test data. Train data is used to train the model and the unseen test data is used for prediction. If the model performs well over the test data and gives good accuracy, it means the model hasn’t overfitted the training data and can be used for prediction.
+

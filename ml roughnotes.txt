@@ -1,0 +1,36 @@
+regression alg 
+data itself is predicted
+--what is the market value of this house
+-- is it going to rain  tomorrow
+
+
+what is classification
+it is the process of dividing the datasets into different categories or groups by adding labels
+----it adds the data point to a particular labeled group on the basics of some condition
+types of classification
+--decision tree
+
+
+(graphical representation of all possible sols to a decision based on certain conditions
+-descisions are based on some conditions
+-- it can be easily explained
+-----cart alg------
+
+-- random forest
+-- navies bayes
+--knn
+
+
+how does a tree decide where to split
+gini index
+information gain----- decides which attributes should be selected as the decision  node
+chi square
+reduction in variance
+
+entropy
+purning- a decision tree is a graphical representation of all the possible sols to a decision based on certain cond's
+
+
+data cleaning-------------
+
+ It is also known as scrubbing. This task involves filling of missing values, smoothing or removing noisy data and outliers along with resolving inconsistencies.
